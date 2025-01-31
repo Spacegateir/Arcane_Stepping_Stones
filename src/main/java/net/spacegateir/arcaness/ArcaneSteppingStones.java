@@ -2,6 +2,9 @@ package net.spacegateir.arcaness;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.spacegateir.arcaness.block.ModBlocks;
+import net.spacegateir.arcaness.creative_tab.ModItemGroups;
+import net.spacegateir.arcaness.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +15,10 @@ public class ArcaneSteppingStones implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		ModItemGroups.registerItemGroups();
+
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arcane-stepping-stones:block/power_precision_block_9"
+  }
+}
