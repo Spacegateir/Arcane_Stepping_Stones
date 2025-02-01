@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "arcane-stepping-stones:block/test_block",
+    "side": "arcane-stepping-stones:block/test_block",
+    "front": "arcane-stepping-stones:block/test_block",
+    "top": "arcane-stepping-stones:block/test_block"
+  }
+}
