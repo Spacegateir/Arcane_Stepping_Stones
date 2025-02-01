@@ -12,6 +12,10 @@ import net.spacegateir.arcaness.block.ModBlocks;
 
 public class ModItems {
 
+    public static final Item TEST_ITEM = Registry.register(Registries.ITEM,
+            new Identifier(ArcaneSteppingStones.MOD_ID, "test_item"),
+            new BlockItem(ModBlocks.TEST_BLOCK, new FabricItemSettings())
+    );
     public static final Item POWER_PRECISION = Registry.register(Registries.ITEM,
             new Identifier(ArcaneSteppingStones.MOD_ID, "power_precision_block_0"),
             new BlockItem(ModBlocks.POWER_PRECISION_BLOCK, new FabricItemSettings())

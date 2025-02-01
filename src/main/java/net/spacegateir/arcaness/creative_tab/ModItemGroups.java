@@ -18,8 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.POWER_PRECISION)).entries((displayContext, entries) -> {
 
 
+                        entries.add(ModItems.TEST_ITEM);
                         entries.add(ModItems.POWER_PRECISION);
-                        entries.add(ModBlocks.TEST_BLOCK);
 
 
 

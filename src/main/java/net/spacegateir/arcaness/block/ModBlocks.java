@@ -14,7 +14,12 @@ import net.spacegateir.arcaness.block.custom.PowerPrecisionBlock;
 
 public class ModBlocks {
 
-    public static final Block TEST_BLOCK = registerBlock("test_block",
+//    public static final Block TEST_BLOCK = registerBlock("test_block",
+//            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F))
+//    );
+
+    public static final Block TEST_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(ArcaneSteppingStones.MOD_ID, "test_block"),
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F))
     );
     public static final Block POWER_PRECISION_BLOCK = Registry.register(Registries.BLOCK,
