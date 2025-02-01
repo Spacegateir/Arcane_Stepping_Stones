@@ -17,7 +17,7 @@ public class ModItems {
             new BlockItem(ModBlocks.TEST_BLOCK, new FabricItemSettings())
     );
     public static final Item POWER_PRECISION = Registry.register(Registries.ITEM,
-            new Identifier(ArcaneSteppingStones.MOD_ID, "power_precision_block_0"),
+            new Identifier(ArcaneSteppingStones.MOD_ID, "power_precision_block_15"),
             new BlockItem(ModBlocks.POWER_PRECISION_BLOCK, new FabricItemSettings())
     );
 
