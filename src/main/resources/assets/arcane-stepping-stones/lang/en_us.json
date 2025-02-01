@@ -2,8 +2,10 @@
   "itemgroup.dwarf adventure": "Dwarf Adventure",
 
 
+  "block.arcane-stepping-stones.test_block": "Test Block",
   "block.arcane-stepping-stones.power_precision_block_0": "Power Precision Block",
-  "block.arcane-stepping-stones.test_block": "Test Block"
+
+  "block.arcane-stepping-stones.absorption": "Absorption Block"
 
 
 }

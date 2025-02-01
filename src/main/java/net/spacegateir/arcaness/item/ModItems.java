@@ -22,6 +22,12 @@ public class ModItems {
     );
 
 
+    public static final Item ABSORPTION_ITEM = Registry.register(Registries.ITEM,
+            new Identifier(ArcaneSteppingStones.MOD_ID, "absorption"),
+            new BlockItem(ModBlocks.ABSORPTION_BLOCK, new FabricItemSettings())
+    );
+
+
 
 
     private static Item registerItem(String name, Item item) {

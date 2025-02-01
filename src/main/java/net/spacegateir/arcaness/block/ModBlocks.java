@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
+import net.spacegateir.arcaness.block.custom.ArcaneBlocks.AbsorptionBlock;
 import net.spacegateir.arcaness.block.custom.PowerPrecisionBlock;
 
 public class ModBlocks {
@@ -21,6 +22,12 @@ public class ModBlocks {
     public static final Block POWER_PRECISION_BLOCK = Registry.register(Registries.BLOCK,
             new Identifier(ArcaneSteppingStones.MOD_ID, "power_precision_block_0"),
             new PowerPrecisionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F))
+    );
+
+
+    public static final Block ABSORPTION_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(ArcaneSteppingStones.MOD_ID, "absorption"),
+            new AbsorptionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F))
     );
 
 

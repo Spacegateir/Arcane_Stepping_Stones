@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TEST_ITEM);
                         entries.add(ModItems.POWER_PRECISION);
 
+                        entries.add(ModItems.ABSORPTION_ITEM);
+
 
 
                     }).build());
