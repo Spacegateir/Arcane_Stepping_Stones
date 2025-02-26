@@ -23,7 +23,6 @@ public class ModItemGroups {
                         entries.add(ModItems.POWER_PRECISION);
 
                         entries.add(ModItems.ABSORPTION_ITEM);
-                        entries.add(Items.DECORATED_POT);
 
 
 
