@@ -3,7 +3,13 @@
 
   "item.arcane_stepping_stones.trap_concealer": "Trap Conealer",
 
-  "block.arcane_stepping_stones.changing_block": "Block of Changing"
+  "block.arcane_stepping_stones.changing_block": "Block of Changing",
+
+  "block.arcane_stepping_stones.arcane_absorption_block": "Arcane Absorption Block",
 
 
+
+  "tooltip.steamcraft.trap_concealer.tooltip.shift_1": "§eShift Right§r or §eRight Click§r to Cycle Different States",
+  "tooltip.steamcraft.trap_concealer.tooltip.shift_2": "§eRight Click§r on Arcane Blocks to Change their BlockState!",
+  "tooltip.steamcraft.trap_concealer.tooltip": "Press §eSHIFT§r for more Information"
 }

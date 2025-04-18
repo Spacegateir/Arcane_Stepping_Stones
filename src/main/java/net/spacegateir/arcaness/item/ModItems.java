@@ -9,13 +9,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
 import net.spacegateir.arcaness.block.ModBlocks;
+import net.spacegateir.arcaness.item.custom.TrapConcealerItem;
 
 public class ModItems {
 
 //    Item
 
     public static final Item TRAP_CONCEALER = registerItem("trap_concealer",
-            new Item(new FabricItemSettings()));
+            new TrapConcealerItem(new FabricItemSettings()));
 
 //    BlockItem
 

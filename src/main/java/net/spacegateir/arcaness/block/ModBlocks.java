@@ -10,12 +10,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
+import net.spacegateir.arcaness.block.arcane.ArcaneAbsorptionBlock;
 
 public class ModBlocks {
 
 //    Block
 
-
+    public static final Block ARCANE_ABSORPTION_BLOCK = registerBlock("arcane_absorption_block",
+            new ArcaneAbsorptionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 //    BlockItem
 

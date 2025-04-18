@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
+import net.spacegateir.arcaness.block.ModBlocks;
 import net.spacegateir.arcaness.item.ModItems;
 
 public class ModItemGroups {
@@ -24,7 +25,7 @@ public class ModItemGroups {
 
 //                        Blocks
 
-
+                        entries.add(ModBlocks.ARCANE_ABSORPTION_BLOCK);
 
 //                        BlockItem
 
