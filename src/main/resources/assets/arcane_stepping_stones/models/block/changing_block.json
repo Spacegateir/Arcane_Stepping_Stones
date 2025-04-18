@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "arcane_stepping_stones:block/changing_block/changing_block_down",
+    "up": "arcane_stepping_stones:block/changing_block/changing_block_up",
+    "north": "arcane_stepping_stones:block/changing_block/changing_block_north",
+    "south": "arcane_stepping_stones:block/changing_block/changing_block_south",
+    "west": "arcane_stepping_stones:block/changing_block/changing_block_west",
+    "east": "arcane_stepping_stones:block/changing_block/changing_block_east",
+    "particle": "arcane_stepping_stones:block/changing_block/changing_block_north"
+  }
+}
