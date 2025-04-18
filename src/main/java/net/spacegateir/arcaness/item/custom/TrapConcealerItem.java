@@ -21,8 +21,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import net.minecraft.nbt.NbtCompound;
-import net.spacegateir.arcaness.block.arcane.ArcaneAbsorptionBlock;
+import net.spacegateir.arcaness.block.arcane.*;
 
+import net.spacegateir.arcaness.block.arcane_specal.*;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Arrays;
@@ -32,10 +33,48 @@ public class TrapConcealerItem extends Item {
 
     // List of block classes this item can work on
     private static final List<Class<? extends Block>> TARGET_BLOCK_CLASSES = Arrays.asList(
-            ArcaneAbsorptionBlock.class
-//            ArcanespeenBlock.class,
-//            ArcaneBaterBreathingBlock.class
+            ArcaneAbsorptionBlock.class,
+            ArcaneBadOmenBlock.class,
+            ArcaneBlindnessBlock.class,
+            ArcaneConduitBlock.class,
+            ArcaneDarknessBlock.class,
+            ArcaneDolphinsGraceBlock.class,
+            ArcaneFireResistanceBlock.class,
+            ArcaneGlowingBlock.class,
+            ArcaneHasteBlock.class,
+            ArcaneHealthBoostBlock.class,
+            ArcaneHeroOfTheVillageBlock.class,
+            ArcaneInstantDamageBlock.class,
+            ArcaneInstantHealthBlock.class,
+            ArcaneInvisibilityBlock.class,
+            ArcaneJumpBoostBlock.class,
+            ArcaneLevitationBlock.class,
+            ArcaneLuckBlock.class,
+            ArcaneMiningFatigueBlock.class,
+            ArcaneNeauseaBlock.class,
+            ArcaneNightVisionBlock.class,
+            ArcanePoisionBlock.class,
+            ArcaneRegenerationBlock.class,
+            ArcaneResistanceBlock.class,
+            ArcaneSatuationBlock.class,
+            ArcaneSlowFallBlock.class,
+            ArcaneSlownessBlock.class,
+            ArcaneSpeedBlock.class,
+            ArcaneStarvingBlock.class,
+            ArcaneStrengthBlock.class,
+            ArcaneUnluckBlock.class,
+            ArcaneWaterBreathingBlock.class,
+            ArcaneWeaknessBlock.class,
+            ArcaneWitherBlock.class,
+            ArcaneVoidBlock.class,
+            ArcaneClearNegativeBlock.class,
+            ArcaneClearPositiveBlock.class,
+            ArcaneClearNeutralBlock.class,
+            ArcaneDisorientBlock.class,
+            ArcaneStickyFeatBlock.class,
+            ArcanFreakyBunnyBlock.class
     );
+
 
     // Array of model names (linked to switch_state values)
     private static final String[] MODEL_NAMES = {

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "arcane_stepping_stones:block/arcane/trap_block",
+    "side": "arcane_stepping_stones:block/arcane/luck_artifact",
+    "front": "arcane_stepping_stones:block/arcane/luck_artifact",
+    "top": "arcane_stepping_stones:block/arcane/standing_pulse_top",
+
+    "particle": "arcane_stepping_stones:block/arcane/luck_artifact"
+  }
+}

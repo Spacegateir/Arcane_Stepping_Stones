@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "arcane_stepping_stones:block/arcane/trap_block",
+    "side": "arcane_stepping_stones:block/arcane/blindness_artifact",
+    "front": "arcane_stepping_stones:block/arcane/blindness_artifact",
+    "top": "arcane_stepping_stones:block/arcane/negative_pulse",
+
+    "particle": "arcane_stepping_stones:block/arcane/blindness_artifact"
+  }
+}

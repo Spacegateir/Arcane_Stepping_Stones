@@ -6,7 +6,7 @@ import net.minecraft.state.property.IntProperty;
 
 public class ArcaneBlock extends Block {
     // modify when the json file gets more models
-    public static final IntProperty SWITCH_STATE = IntProperty.of("switch_state", 0, 1);
+    public static final IntProperty SWITCH_STATE = IntProperty.of("switch_state", 0, 49);
 
 
     public ArcaneBlock(Settings settings) {
