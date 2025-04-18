@@ -12,11 +12,16 @@ import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
 import net.spacegateir.arcaness.block.arcane.*;
 import net.spacegateir.arcaness.block.arcane_specal.*;
-import net.spacegateir.arcaness.block.custom.ArcaneBlock;
+import net.spacegateir.arcaness.block.custom.PowerPrecisionBlock;
 
 public class ModBlocks {
 
 //    Block
+
+    public static final Block POWER_PRECISION_BLOCK = registerBlock("power_precision_block_0",
+            new PowerPrecisionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F)));
+
+
 
     public static final Block ARCANE_ABSORPTION_BLOCK = registerBlock("arcane_absorption_block",
             new ArcaneAbsorptionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
@@ -142,6 +147,10 @@ public class ModBlocks {
 
 //    public static final Block ARCANE__BLOCK = registerBlock("arcane__block",
 //            new ArcaneBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+
+
+
 
 //    BlockItem
 

@@ -66,6 +66,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ARCANE_STICKY_FEAT_BLOCK);
                         entries.add(ModBlocks.ARCANE_FREAKY_BUNNY_BLOCK);
 
+                        entries.add(ModBlocks.POWER_PRECISION_BLOCK);
+
 
 //                        BlockItem
 
