@@ -22,7 +22,6 @@ import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import net.minecraft.nbt.NbtCompound;
 import net.spacegateir.arcaness.block.arcane.ArcaneAbsorptionBlock;
-import net.spacegateir.arcaness.block.custom.*;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -41,7 +40,55 @@ public class TrapConcealerItem extends Item {
     // Array of model names (linked to switch_state values)
     private static final String[] MODEL_NAMES = {
             "arcane base block #0",
-            "stone #1"
+            "stone #1",
+            "deepslate #2",
+            "granite #3",
+            "diorite #4",
+            "andesite #5",
+            "tuff #6",
+            "calcite #7",
+            "basalt #8",
+            "blackstone #9",
+            "netherrack #10",
+            "end stone #11",
+            "stone bricks #12",
+            "dirt #13",
+            "coarse dirt #14",
+            "rooted dirt #15",
+            "podzol #16",
+            "mud #17",
+            "clay #18",
+            "sand #19",
+            "gravel #20",
+            "sandstone #21",
+            "smooth stone #22",
+            "moss block #23",
+            "mossy cobblestone #24",
+            "snow block #25",
+            "ice #26",
+            "packed ice #27",
+            "oak planks #28",
+            "spruce planks #29",
+            "birch planks #30",
+            "jungle planks #31",
+            "acacia planks #32",
+            "dark oak planks #33",
+            "mangrove planks #34",
+            "cherry planks #35",
+            "crimson planks #36",
+            "warped planks #37",
+            "bricks #38",
+            "terracotta #39",
+            "cobblestone #40",
+            "cobbled deepslate #41",
+            "copper block #42",
+            "prismarine #43",
+            "amethyst block #44",
+            "white concrete #45",
+            "quartz block #46",
+            "smooth sandstone #47",
+            "chiseled stone bricks #48",
+            "nether bricks #49"
     };
 
     public TrapConcealerItem(Settings settings) {
