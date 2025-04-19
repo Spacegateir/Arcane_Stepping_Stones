@@ -68,6 +68,26 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.POWER_PRECISION_BLOCK);
 
+                        entries.add(ModBlocks.CURSED_BLOCK);
+                        entries.add(ModBlocks.COURSE_DIRT_TRAP_BLOCK);
+                        entries.add(ModBlocks.STONE_TRAP_BLOCK);
+                        entries.add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
+                        entries.add(ModBlocks.SAND_QUICKSAND);
+                        entries.add(ModBlocks.RED_SAND_QUICKSAND);
+                        entries.add(ModBlocks.GRAVEL_SINKSTONE);
+                        entries.add(ModBlocks.MUD_SINKING_SLUDGE);
+                        entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
+                        entries.add(ModBlocks.FLAREFORGE_BLOCK);
+                        entries.add(ModBlocks.NETHER_STEAM_VENT);
+                        entries.add(ModBlocks.TELEPORT_TRAP_BLOCK);
+                        entries.add(ModBlocks.SPIRIT_JUMP_TRAP);
+                        entries.add(ModBlocks.FROST_BITE_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_BRASIER_TRAP_BLOCK);
+                        entries.add(ModBlocks.EMPTY_BRASIER);
+                        entries.add(ModBlocks.CURSED_TOTEM_BLOCK);
+
 
 //                        BlockItem
 

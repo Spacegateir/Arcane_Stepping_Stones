@@ -47,6 +47,30 @@
   "block.arcane_stepping_stones.arcane_sticky_feat_block": "Arcane Sticky Feat Block",
   "block.arcane_stepping_stones.arcane_freaky_bunny_block": "Arcane Freaky Bunny Block",
 
+  "block.arcane_stepping_stones.empty_brasier": "Brazier",
+  "block.arcane_stepping_stones.cursed_block": "Cursed Sculk",
+  "block.arcane_stepping_stones.course_dirt_trap_block": "Course Dirt Spike Trap",
+  "block.arcane_stepping_stones.course_dirt_trap_block_spikes": "Course Dirt Spike Trap",
+  "block.arcane_stepping_stones.stone_trap_block": "Stone Spike Trap ",
+  "block.arcane_stepping_stones.stone_trap_block_spikes": "Stone Spike Trap ",
+  "block.arcane_stepping_stones.deepslate_trap_block": "Deepslate Spike Trap",
+  "block.arcane_stepping_stones.deepslate_trap_block_spikes": "Deepslate Spike Trap",
+  "block.arcane_stepping_stones.sand_quicksand": "Quicksand Sand",
+  "block.arcane_stepping_stones.red_sand_quicksand": "Quicksand Red sand",
+  "block.arcane_stepping_stones.gravel_sinkstone": "Sinkstone Gravel",
+  "block.arcane_stepping_stones.mud_sinking_sludge": "Sinking Sludge Mud",
+  "block.arcane_stepping_stones.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand",
+  "block.arcane_stepping_stones.flareforge": "Flareforge",
+  "block.arcane_stepping_stones.nether_steam_vent": "Nether Steam Vent",
+  "block.arcane_stepping_stones.teleport_trap_block": "Dwarf Teleporter",
+  "block.arcane_stepping_stones.spirit_jump_trap": "Spirit Jump",
+  "block.arcane_stepping_stones.spirit_jump_trap_block": "Spirit Jump Extended",
+  "block.arcane_stepping_stones.frost_bite_trap_block": "Cursed Bifrost",
+  "block.arcane_stepping_stones.cursed_nausea_trap_block": "Cursed Fountain",
+  "block.arcane_stepping_stones.cursed_poison_spore_trap_block": "Cursed Poison Spore",
+  "block.arcane_stepping_stones.cursed_brasier_trap_block": "Cursed Brazier",
+  "block.arcane_stepping_stones.cursed_totem_block": "Cursed Totem",
+
 
 
 

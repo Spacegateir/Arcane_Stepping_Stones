@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "arcane_stepping_stones:block/traps/teleport_bottom",
+    "side": "arcane_stepping_stones:block/traps/teleport_side",
+    "front": "arcane_stepping_stones:block/traps/teleport_side",
+    "top": "arcane_stepping_stones:block/traps/teleport_top"
+  }
+}

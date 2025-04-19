@@ -12,7 +12,9 @@ import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
 import net.spacegateir.arcaness.block.arcane.*;
 import net.spacegateir.arcaness.block.arcane_specal.*;
+import net.spacegateir.arcaness.block.custom.BrasierBlock;
 import net.spacegateir.arcaness.block.custom.PowerPrecisionBlock;
+import net.spacegateir.arcaness.block.traps.*;
 
 public class ModBlocks {
 
@@ -147,6 +149,65 @@ public class ModBlocks {
 
 //    public static final Block ARCANE__BLOCK = registerBlock("arcane__block",
 //            new ArcaneBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+
+
+
+    public static final Block CURSED_BLOCK = registerBlock("cursed_block",
+            new CursedBlock(FabricBlockSettings.copyOf(Blocks.SCULK).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block COURSE_DIRT_TRAP_BLOCK = registerBlock("course_dirt_trap_block",
+            new CourseDirtTrapBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block COURSE_DIRT_TRAP_BLOCK_SPIKES = registerBlock("course_dirt_trap_block_spikes",
+            new CourseDirtTrapBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block STONE_TRAP_BLOCK = registerBlock("stone_trap_block",
+            new StoneTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STONE_TRAP_BLOCK_SPIKES = registerBlock("stone_trap_block_spikes",
+            new StoneTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block DEEPSLATE_TRAP_BLOCK = registerBlock("deepslate_trap_block",
+            new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block DEEPSLATE_TRAP_BLOCK_SPIKES = registerBlock("deepslate_trap_block_spikes",
+            new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block SAND_QUICKSAND = registerBlock("sand_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block RED_SAND_QUICKSAND = registerBlock("red_sand_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block GRAVEL_SINKSTONE = registerBlock("gravel_sinkstone",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block MUD_SINKING_SLUDGE = registerBlock("mud_sinking_sludge",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.MUD).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block SOUL_SAND_PHANTOM_QUICKSAND = registerBlock("soul_sand_phantom_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+
+    public static final Block FLAREFORGE_BLOCK = registerBlock("flareforge",
+            new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
+            new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_TOTEM_BLOCK = registerBlock("cursed_totem_block",
+            new WonderingTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).nonOpaque().resistance(50.0F).hardness(50.0F)));
+    public static final Block TELEPORT_TRAP_BLOCK = registerBlock("teleport_trap_block",
+            new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block FROST_BITE_TRAP_BLOCK = registerBlock("frost_bite_trap_block",
+            new FrostBitTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_NAUSEA_TRAP_BLOCK = registerBlock("cursed_nausea_trap_block",
+            new CursedNauseaTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_POISON_SPORE_TRAP_BLOCK = registerBlock("cursed_poison_spore_trap_block",
+            new CursedPoisonSporeTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).nonOpaque().allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_BRASIER_TRAP_BLOCK = registerBlock("cursed_brasier_trap_block",
+            new HungerZoneTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).nonOpaque().allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block EMPTY_BRASIER = registerBlock("empty_brasier",
+            new BrasierBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque().luminance(15)));
+
+
+    public static final Block SPIRIT_JUMP_TRAP = registerBlock("spirit_jump_trap",
+            new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SPIRIT_JUMP_TRAP_BLOCK = registerBlock("spirit_jump_trap_block",
+            new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+
 
 
 
