@@ -71,6 +71,13 @@
   "block.arcane_stepping_stones.cursed_brasier_trap_block": "Cursed Brazier",
   "block.arcane_stepping_stones.cursed_totem_block": "Cursed Totem",
 
+  "effect.arcane_stepping_stones.freaky_bunny": "Freaky Bunny",
+  "effect.arcane_stepping_stones.sticky_feat": "Sticky Feat",
+  "effect.arcane_stepping_stones.disorient": "Disorient",
+  "effect.arcane_stepping_stones.clear_positive_effect": "Positive Clear",
+  "effect.arcane_stepping_stones.clear_negative_effect": "Negative Clear",
+  "effect.arcane_stepping_stones.clear_neutral_effect": "Neutral Clear",
+
 
 
 
