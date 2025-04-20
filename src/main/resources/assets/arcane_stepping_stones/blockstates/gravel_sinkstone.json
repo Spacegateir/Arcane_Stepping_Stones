@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "arcane_stepping_stones:block/gravel_sinkstone"
+      "model": "arcane_stepping_stones:block/traps/gravel_sinkstone"
     }
   }
 }

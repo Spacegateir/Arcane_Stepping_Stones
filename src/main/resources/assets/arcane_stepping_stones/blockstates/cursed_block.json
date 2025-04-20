@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "arcane_stepping_stones:block/cursed_block"
+      "model": "arcane_stepping_stones:block/traps/cursed_block"
     }
   }
 }

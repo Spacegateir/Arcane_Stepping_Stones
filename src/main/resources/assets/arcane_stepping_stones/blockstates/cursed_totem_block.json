@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "arcane_stepping_stones:block/cursed_totem_block" },
-    "facing=east": { "model": "arcane_stepping_stones:block/cursed_totem_block", "y": 90  },
-    "facing=south": { "model": "arcane_stepping_stones:block/cursed_totem_block", "y": 180 },
-    "facing=west": { "model": "arcane_stepping_stones:block/cursed_totem_block", "y": 270 }
+    "facing=north": { "model": "arcane_stepping_stones:block/traps/cursed_totem_block" },
+    "facing=east": { "model": "arcane_stepping_stones:block/traps/cursed_totem_block", "y": 90  },
+    "facing=south": { "model": "arcane_stepping_stones:block/traps/cursed_totem_block", "y": 180 },
+    "facing=west": { "model": "arcane_stepping_stones:block/traps/cursed_totem_block", "y": 270 }
   }
 }

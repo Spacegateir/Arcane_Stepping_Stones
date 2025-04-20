@@ -1,6 +1,6 @@
 {
   "variants": {
-    "switch_state=0": { "model": "arcane_stepping_stones:block/arcane_mining_fatigue_block" },
+    "switch_state=0": { "model": "arcane_stepping_stones:block/arcane/arcane_mining_fatigue_block" },
     "switch_state=1": { "model": "minecraft:block/stone" },
     "switch_state=2": { "model": "minecraft:block/deepslate" },
     "switch_state=3": { "model": "minecraft:block/granite" },

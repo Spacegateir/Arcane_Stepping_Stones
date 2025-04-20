@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "arcane_stepping_stones:block/teleport_trap_block"
+      "model": "arcane_stepping_stones:block/traps/teleport_trap_block"
     }
   }
 }

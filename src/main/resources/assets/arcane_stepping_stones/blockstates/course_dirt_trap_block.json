@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "arcane_stepping_stones:block/course_dirt_trap_block"
+      "model": "arcane_stepping_stones:block/traps/course_dirt_trap_block"
     }
   }
 }
