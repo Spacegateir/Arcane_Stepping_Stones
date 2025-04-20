@@ -22,7 +22,7 @@ public class ModItemGroups {
 //                        Items
 
                         entries.add(ModItems.TRAP_CONCEALER);
-                        entries.add(ModItems.CORE_OF_CHANGING);
+//                        entries.add(ModItems.CORE_OF_CHANGING);
 
 //                        Blocks
 
