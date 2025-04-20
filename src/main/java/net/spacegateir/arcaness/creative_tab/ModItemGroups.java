@@ -22,6 +22,7 @@ public class ModItemGroups {
 //                        Items
 
                         entries.add(ModItems.TRAP_CONCEALER);
+                        entries.add(ModItems.CORE_OF_CHANGING);
 
 //                        Blocks
 
@@ -79,7 +80,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
                         entries.add(ModBlocks.FLAREFORGE_BLOCK);
                         entries.add(ModBlocks.NETHER_STEAM_VENT);
-                        entries.add(ModBlocks.TELEPORT_TRAP_BLOCK);
                         entries.add(ModBlocks.SPIRIT_JUMP_TRAP);
                         entries.add(ModBlocks.FROST_BITE_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
@@ -91,7 +91,7 @@ public class ModItemGroups {
 
 //                        BlockItem
 
-                        entries.add(ModItems.CHANGING_ITEM);
+                        entries.add(ModItems.TELEPORT_TRAP_ITEM);
 
 
 

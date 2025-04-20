@@ -188,8 +188,7 @@ public class ModBlocks {
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block CURSED_TOTEM_BLOCK = registerBlock("cursed_totem_block",
             new WonderingTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).nonOpaque().resistance(50.0F).hardness(50.0F)));
-    public static final Block TELEPORT_TRAP_BLOCK = registerBlock("teleport_trap_block",
-            new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
     public static final Block FROST_BITE_TRAP_BLOCK = registerBlock("frost_bite_trap_block",
             new FrostBitTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block CURSED_NAUSEA_TRAP_BLOCK = registerBlock("cursed_nausea_trap_block",
@@ -200,8 +199,6 @@ public class ModBlocks {
             new HungerZoneTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).nonOpaque().allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block EMPTY_BRASIER = registerBlock("empty_brasier",
             new BrasierBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque().luminance(15)));
-
-
     public static final Block SPIRIT_JUMP_TRAP = registerBlock("spirit_jump_trap",
             new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block SPIRIT_JUMP_TRAP_BLOCK = registerBlock("spirit_jump_trap_block",
@@ -215,9 +212,9 @@ public class ModBlocks {
 
 //    BlockItem
 
-public static final Block CHANGING_BLOCK = Registry.register(Registries.BLOCK,
-        new Identifier(ArcaneSteppingStones.MOD_ID, "changing_block"),
-        new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F)));
+public static final Block TELEPORT_TRAP_BLOCK = Registry.register(Registries.BLOCK,
+        new Identifier(ArcaneSteppingStones.MOD_ID, "teleport_trap_block"),
+        new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).resistance(50.0F).hardness(50.0F)));
 
 
 

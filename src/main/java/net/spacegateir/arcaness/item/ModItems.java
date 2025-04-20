@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spacegateir.arcaness.ArcaneSteppingStones;
 import net.spacegateir.arcaness.block.ModBlocks;
+import net.spacegateir.arcaness.item.custom.TeleportTrapBlockItem;
 import net.spacegateir.arcaness.item.custom.TrapConcealerItem;
 
 public class ModItems {
@@ -17,12 +18,14 @@ public class ModItems {
 
     public static final Item TRAP_CONCEALER = registerItem("trap_concealer",
             new TrapConcealerItem(new FabricItemSettings()));
+    public static final Item CORE_OF_CHANGING = registerItem("core_of_changing",
+            new Item(new FabricItemSettings()));
 
 //    BlockItem
 
-    public static final Item CHANGING_ITEM = Registry.register(Registries.ITEM,
-            new Identifier(ArcaneSteppingStones.MOD_ID, "changing_item"),
-            new BlockItem(ModBlocks.CHANGING_BLOCK, new FabricItemSettings()));
+    public static final Item TELEPORT_TRAP_ITEM = Registry.register(Registries.ITEM,
+            new Identifier(ArcaneSteppingStones.MOD_ID, "teleport_trap_item"),
+            new TeleportTrapBlockItem(ModBlocks.TELEPORT_TRAP_BLOCK, new FabricItemSettings()));
 
 
 

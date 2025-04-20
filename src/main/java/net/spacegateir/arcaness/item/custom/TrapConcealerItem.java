@@ -137,10 +137,10 @@ public class TrapConcealerItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if (Screen.hasShiftDown()) {
-            tooltip.add(Text.translatable("tooltip.steamcraft.trap_concealer.tooltip.shift_1"));
-            tooltip.add(Text.translatable("tooltip.steamcraft.trap_concealer.tooltip.shift_2"));
+            tooltip.add(Text.translatable("tooltip.arcane_stepping_stones.trap_concealer.tooltip.shift_1"));
+            tooltip.add(Text.translatable("tooltip.arcane_stepping_stones.trap_concealer.tooltip.shift_2"));
         } else {
-            tooltip.add(Text.translatable("tooltip.steamcraft.trap_concealer.tooltip"));
+            tooltip.add(Text.translatable("tooltip.arcane_stepping_stones.trap_concealer.tooltip"));
         }
     }
 

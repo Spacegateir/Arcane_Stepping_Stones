@@ -2,8 +2,8 @@
   "itemGroup.arcaness.arcane_stepping_stones": "Arcane Stepping Stones",
 
   "item.arcane_stepping_stones.trap_concealer": "Trap Conealer",
+  "item.arcane_stepping_stones.core_of_changing": "Core of Changing",
 
-  "block.arcane_stepping_stones.changing_block": "Block of Changing",
   "block.arcane_stepping_stones.power_precision_block_0": "Power Precision Block",
 
   "block.arcane_stepping_stones.arcane_absorption_block": "Arcane Absorption Block",
@@ -62,7 +62,7 @@
   "block.arcane_stepping_stones.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand",
   "block.arcane_stepping_stones.flareforge": "Flareforge",
   "block.arcane_stepping_stones.nether_steam_vent": "Nether Steam Vent",
-  "block.arcane_stepping_stones.teleport_trap_block": "Dwarf Teleporter",
+  "block.arcane_stepping_stones.teleport_trap_block": "Teleporter",
   "block.arcane_stepping_stones.spirit_jump_trap": "Spirit Jump",
   "block.arcane_stepping_stones.spirit_jump_trap_block": "Spirit Jump Extended",
   "block.arcane_stepping_stones.frost_bite_trap_block": "Cursed Bifrost",
@@ -78,10 +78,13 @@
   "effect.arcane_stepping_stones.clear_negative_effect": "Negative Clear",
   "effect.arcane_stepping_stones.clear_neutral_effect": "Neutral Clear",
 
+  "tooltip.arcane_stepping_stones.trap_concealer.tooltip.shift_1": "§eShift Right§r or §eRight Click§r to Cycle Different States",
+  "tooltip.arcane_stepping_stones.trap_concealer.tooltip.shift_2": "§eRight Click§r on Arcane Blocks to Change their BlockState!",
+  "tooltip.arcane_stepping_stones.trap_concealer.tooltip": "Press §eSHIFT§r for more Information",
 
-
-
-  "tooltip.steamcraft.trap_concealer.tooltip.shift_1": "§eShift Right§r or §eRight Click§r to Cycle Different States",
-  "tooltip.steamcraft.trap_concealer.tooltip.shift_2": "§eRight Click§r on Arcane Blocks to Change their BlockState!",
-  "tooltip.steamcraft.trap_concealer.tooltip": "Press §eSHIFT§r for more Information"
+  "tooltip.arcane_stepping_stones.teleport_trap.tooltip.shift_1": "§eStand on Teleporter§r Relocate to nearest §eGold Block§r in 50 Blocks §eFirst§r",
+  "tooltip.arcane_stepping_stones.teleport_trap.tooltip.shift_2": "§eStand on Teleporter§r Relocate to nearest §eArcane Disorient Block§r in 50 Blocks §eSecond§r",
+  "tooltip.arcane_stepping_stones.teleport_trap.tooltip.shift_3": "§eStand on Teleporter§r Relocate to nearest §eStone§r in 50 Blocks §eThird§r",
+  "tooltip.arcane_stepping_stones.teleport_trap.tooltip.shift_4": "§eTeleporter§r will §eRandomize§r Destinations",
+  "tooltip.arcane_stepping_stones.teleport_trap.tooltip": "Press §eSHIFT§r for more Information"
 }
